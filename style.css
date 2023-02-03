@@ -1,0 +1,6 @@
+a[href="/criticalrole"].preview-card-image-link img {
+  filter: blur(30px);
+}
+a[href="/criticalrole"].preview-card-image-link img:hover {
+  filter: blur(0);
+}

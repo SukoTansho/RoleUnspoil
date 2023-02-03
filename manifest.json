@@ -1,0 +1,14 @@
+{
+  "name": "Critical Role Blur Preview Image",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Blurs the preview image of Critical Role for twitch streams so that you don't see any spoiler",
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.twitch.tv/*"],
+      "css": ["style.css"]
+    }
+  ]
+}
